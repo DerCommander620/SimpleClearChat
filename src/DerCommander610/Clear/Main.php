@@ -10,15 +10,12 @@ use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
 
     public function onEnable(): void {
-        @mkdir($this->getDataFolder());
-        $this->saveDefaultConfig();
-        $this->getResource("config.yml");
     }
         public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
             switch ($command->getName()){
               case "clearchat":
                   if($sender->hasPermission("clearchat.cmd")){
-                    $this->getServer()->broadcastMessage(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n" . $this->getConfig()->get("Prefix") . "§a >> Du hast erfolgreich den Chat gelöscht!");
+                    $this->getServer()->broadcastMessage(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n§a >> Du hast erfolgreich den Chat gelöscht!");
                 }
         }
      return true;
