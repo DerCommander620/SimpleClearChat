@@ -1,6 +1,6 @@
 name: SimpleClearChat
 version: 1.0.0
-main: DerCommander610\Clear\Clearchat
+main: DerCommander610\Clear\Main
 api: [4.19.3]
 author: DerCommander610
 
