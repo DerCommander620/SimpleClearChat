@@ -15,7 +15,7 @@ class Main extends PluginBase {
         $this->getResource("config.yml");
     }
 
-        public function onCommand(CommandSender $sender, Command $command, string $label, array $args): void {
+        public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
             switch($command->getName()){
               case "clearchat":
                   if($sender->hasPermission("clearchat.cmd")){
