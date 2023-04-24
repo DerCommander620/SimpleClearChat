@@ -2,7 +2,7 @@
 
 namespace DerCommander610\Clear;
 
-use pocketmine\player\Player;
+use pocketmine\Player;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\plugin\PluginBase;
