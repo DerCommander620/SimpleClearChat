@@ -14,13 +14,13 @@ class Main extends PluginBase {
         $this->saveDefaultConfig();
         $this->getResource("config.yml");
     }
-
-        public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool {
-            switch($cmd->getName()){
+        public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
+            switch ($command->getName()){
               case "clearchat":
                   if($sender->hasPermission("clearchat.cmd")){
                     $player->sendMessage(" \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n" . $this->getConfig()->get("Prefix") . "§a >> Du hast erfolgreich den Chat gelöscht!");
                 }
         }
+     return true;
     }
 }
