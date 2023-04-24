@@ -7,7 +7,7 @@ use pocketmine\command\CommanderSender;
 use pocketmine\command\Command;
 use pocketmine\plugin\PluginBase;
 
-class Clearchat extends PluginBase {
+class Main extends PluginBase {
 
     public function onEnable(): void {
         @mkdir($this->getDataFolder());
