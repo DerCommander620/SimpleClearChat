@@ -1,6 +1,3 @@
 # Dont Touch this! Config-version: 1.0.0
 
-# Configuration Get Started
-# With the Prefix you can use it for the End of the message Prefix here a example: §a§lServer
-
 Prefix: "§7[§eServer§7]"
