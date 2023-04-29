@@ -7,7 +7,7 @@ author: DerCommander610
 commands:
   clearchat:
     description: "Leere den chat mit diesen command!"
-    permission: clearchat.cmd
+    permission: simpleclearchat.clearchat.cmd
 permissions:
-   clearchat.cmd:
+   simpleclearchat.clearchat.cmd:
     default: op    
