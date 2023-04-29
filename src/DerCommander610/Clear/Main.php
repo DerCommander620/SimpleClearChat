@@ -10,6 +10,9 @@ use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
 
     public function onEnable(): void {
+        @mkdir($this->getDataFolder());
+        $this->saveDefaultConfig();
+        $this->getResource("config.yml")
     }
         public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
             switch ($command->getName()){
