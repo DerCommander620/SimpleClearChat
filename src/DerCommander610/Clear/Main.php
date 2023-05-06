@@ -19,7 +19,7 @@ class Main extends PluginBase {
               case "clearchat":  
                   if($sender->hasPermission("clearchat.clearchat.cmd")){
                     $this->getServer()->broadcastMessage($this->getServer()->broadcastMessage(str_repeat("\n", 250)){
-                    $sender->sendMessage($this->getConfig()->get("ClearChatPrefix" . " " . $this->getConfig()->get("Clearchat.succesfull-message"))){
+                    $sender->sendMessage($this->getConfig()->get("ClearChatPrefix" . " " . $this->getConfig()->get("Clearchat.succesfull-message")));
                 }
         }
      return true;
