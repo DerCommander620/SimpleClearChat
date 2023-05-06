@@ -17,7 +17,7 @@ class Main extends PluginBase {
         public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
             switch ($command->getName()){
               case "clearchat":  
-                  if($sender->hasPermission("clearchat.cmd")){
+                  if($sender->hasPermission("clearchat.clearchat.cmd")){
                     $this->getServer()->broadcastMessage("$this->getServer()->broadcastMessage(str_repeat("\n", 250));
                     $sender->sendMessage($this->getConfig()->get("ClearChatPrefix" . " " . $this->getConfig()->get("Clearchat.succesfull-message")));  
                 }
